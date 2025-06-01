@@ -1,0 +1,15 @@
+Model: RandomForestClassifier
+Akurasi: 0.79
+Precision: 0.63
+Recall: 0.49
+F1: 0.55
+ROC-AUC: 0.82
+
+Ringkasan Eksperimen:
+- Preprocessing: missing value, encoding, scaling numerik.
+- Model terbaik: RandomForestClassifier (tuning GridSearchCV).
+- Evaluasi pada data test, hasil seperti di atas.
+- Monitoring model dengan Prometheus & Grafana, alert untuk error/latency.
+- Model di-deploy sebagai API FastAPI, dapat diakses via Swagger UI.
+
+Catatan: Model stabil, error rate rendah, latensi inferensi rata-rata <0.1s.

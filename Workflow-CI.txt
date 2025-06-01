@@ -1,0 +1,10 @@
+1. Preprocessing data otomatis dengan automate_Cecilia-Agnes-Vechrisda-Manalu.py
+2. Training model dengan modelling.py
+3. Hyperparameter tuning dengan modelling_tuning.py
+4. Model dan report evaluasi otomatis tersimpan di folder model/
+5. Monitoring dan logging:
+   - Exporter Prometheus berjalan di 3.prometheus_exporter.py
+   - Prometheus men-scrape metrik di port 8001 sesuai 2.prometheus.yml
+   - Dashboard monitoring dan alert dibuat di Grafana
+6. API inference siap digunakan pada 7.Inference.py (FastAPI)
+7. Bukti serving, monitoring, alerting, dan artifak disimpan sesuai instruksi submission.
